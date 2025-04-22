@@ -1,13 +1,13 @@
-package com.demo.authService.controller;
+package com.demo.authService.controllers;
 
-import com.demo.authService.dto.ResponseStatus;
-import com.demo.authService.dto.request.LoginRequestDTO;
-import com.demo.authService.dto.request.SignupRequestDTO;
-import com.demo.authService.dto.response.LoginResponseDTO;
-import com.demo.authService.dto.response.SignupResponseDTO;
+import com.demo.authService.dtos.ResponseStatus;
+import com.demo.authService.dtos.request.LoginRequestDTO;
+import com.demo.authService.dtos.request.SignupRequestDTO;
+import com.demo.authService.dtos.response.LoginResponseDTO;
+import com.demo.authService.dtos.response.SignupResponseDTO;
 import com.demo.authService.exceptions.UserNotFoundException;
 import com.demo.authService.exceptions.WrongPasswordException;
-import com.demo.authService.service.AuthService;
+import com.demo.authService.services.AuthService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.util.LinkedMultiValueMap;

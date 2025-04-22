@@ -1,4 +1,4 @@
-package com.demo.authService.service;
+package com.demo.authService.services;
 
 import com.demo.authService.exceptions.UserAlreadyExistsException;
 

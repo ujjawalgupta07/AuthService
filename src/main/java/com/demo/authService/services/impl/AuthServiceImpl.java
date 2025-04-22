@@ -1,4 +1,4 @@
-package com.demo.authService.service.impl;
+package com.demo.authService.services.impl;
 
 import com.demo.authService.constants.ErrorMessages;
 import com.demo.authService.exceptions.UserAlreadyExistsException;
@@ -7,9 +7,9 @@ import com.demo.authService.exceptions.WrongPasswordException;
 import com.demo.authService.models.Session;
 import com.demo.authService.models.SessionStatus;
 import com.demo.authService.models.User;
-import com.demo.authService.repository.SessionRepo;
-import com.demo.authService.repository.UserRepo;
-import com.demo.authService.service.AuthService;
+import com.demo.authService.repositories.SessionRepo;
+import com.demo.authService.repositories.UserRepo;
+import com.demo.authService.services.AuthService;
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jws;
 import io.jsonwebtoken.Jwts;

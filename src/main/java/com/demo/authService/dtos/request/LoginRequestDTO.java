@@ -1,4 +1,4 @@
-package com.demo.authService.dto.request;
+package com.demo.authService.dtos.request;
 
 import lombok.Getter;
 import lombok.Setter;

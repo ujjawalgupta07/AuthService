@@ -1,4 +1,4 @@
-package com.demo.authService.dto;
+package com.demo.authService.dtos;
 
 public enum ResponseStatus {
 
